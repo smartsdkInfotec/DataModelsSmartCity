@@ -1,4 +1,4 @@
-# User data model
+# User profile data model
 
 ## Description
 A user.
