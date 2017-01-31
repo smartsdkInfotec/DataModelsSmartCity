@@ -6,4 +6,6 @@ This repository contains:
 
 * User profile data model
 * Disease data model
-* Vehicle data model.
+
+
+For development the smart city app and to store vehicle data, we will use the Transportation Harmonized Data Models from FIWARE.
