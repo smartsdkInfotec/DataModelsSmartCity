@@ -43,11 +43,6 @@ A user.
     + Normative References: [https://schema.org/gender](https://schema.org/gender)
     + Optional
 
-+ `affiliation` : The affiliation of user
-	+ Attribute type: Text
-    + Normative References: [https://schema.org/affiliation](https://schema.org/affiliation)
-    + Optional
-
 + `homeAddress` : Civic address where the user lives.
 	+ Attribute type: Text
     + Normative References: [https://schema.org/address](https://schema.org/address)
