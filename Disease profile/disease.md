@@ -29,7 +29,3 @@ A disease.
 	+ Normative References: [https://health-lifesci.schema.org/riskFactor](https://health-lifesci.schema.org/riskFactor)
     + Optional
 	
-+ `sign` : Signs are objective or physically observable manifestations of the medical condition
-    + Attribute type: Text
-	+ Normative References: [https://health-lifesci.schema.org/signOrSymptom](https://health-lifesci.schema.org/signOrSymptom)
-    + Optional
