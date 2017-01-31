@@ -6,4 +6,4 @@ This repository contains:
 
 * User profile data model
 * Disease data model
-* Vehicle data model
+* Vehicle data model.
