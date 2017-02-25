@@ -1,0 +1,17 @@
+{
+  "id": "user:1",
+  "type": "user",  
+  "id_disease": "disease:asthma",
+  "name": "Iker",  
+  "family name": "Smith", 
+  "homelocation": {
+     "type": "Point",
+     "coordinates": [ 19.482537, -99.240132 ]	 
+  }, 
+  "worklocation": {
+     "type": "Point",
+     "coordinates": [ 19.482537, -99.240132 ]	 
+  },
+  "dateCreated": "2017-01-02T09:25:55.00Z",
+  "dateModified": "2017-02-02T011:13:55.00Z"
+ }
