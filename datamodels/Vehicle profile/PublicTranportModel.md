@@ -39,21 +39,27 @@ This is different than the vehicle type (car, lorry, etc.) represented by the `v
     + Attribute type: `geo:json`.
     + Normative References: [https://tools.ietf.org/html/rfc7946](https://tools.ietf.org/html/rfc7946)
     
-+ areaServed : Higher level area served by this vehicle. It can be used to group vehicles per responsible, district, neighbourhood, etc.
++ `areaServed` : Higher level area served by this vehicle. It can be used to group vehicles per responsible, district, neighbourhood, etc.
 	+ Attribute type: Text
 	+ Optional
 
-+ arrivalTime : The expected arrival time by PublicTransport
++ `arrivalTime` : The expected arrival time by PublicTransport
 	+ Attribute type: [DateTime](http://schema.org/DateTime)
 	+ Mandatory	
 
-+ returnTime : The expected return time by PublicTransport
++ `returnTime` : The expected return time by PublicTransport
 	+ Attribute type: [DateTime](http://schema.org/DateTime)
 	+ Mandatory	
 
-+ vehiclePlateIdentifier : An identifier or code displayed on a vehicle registration plate attached to the vehicle used for official identification purposes. The registration identifier is numeric or alphanumeric and is unique within the issuing authority's region.
++ `vehiclePlateIdentifier` : An identifier or code displayed on a vehicle registration plate attached to the vehicle used for official identification purposes. The registration identifier is numeric or alphanumeric and is unique within the issuing authority's region.
 	+ Normative References: DATEX II vehicleRegistrationPlateIdentifier
 	+ Attribute Type: Text
 	+ Mandatory if vehicleIdentificationNumber is not defined.
 
-	
++ `dateModified` : Last update timestamp of this entity.
+    + Attribute type: [DateTime](https://schema.org/DateTime)
+    + Optional
+
++ `dateCreated` : Creation timestamp of this entity.
+    + Attribute type: [DateTime](https://schema.org/DateTime)
+    + Optional
