@@ -61,5 +61,7 @@ The registration identifier is numeric or alphanumeric and is unique within the 
          "type": "Point",
          "coordinates": [ -3.164485591715449, 40.62785133667262 ]
       },
-      "vehiclePlateIdentifier": "3456ABC"
+      "vehiclePlateIdentifier": "3456ABC",
+	  "dateCreated": "2017-01-02T09:25:55.00Z",
+	  "dateModified": "2017-02-02T011:13:55.00Z"
     }
