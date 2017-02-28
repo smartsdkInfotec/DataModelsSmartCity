@@ -26,17 +26,32 @@ This is different than the vehicle category (see below).
         + (`bicycle`, `car`,  `motorcycle`,)
     + Mandatory
 
-+ `location` : Vehicle's last known location represented by a GeoJSON Point. Such point may contain the vehicle's
-*altitude* as the third component of the `coordinates` array. 
-    + Attribute type: `geo:json`.
-    + Normative References: [https://tools.ietf.org/html/rfc7946](https://tools.ietf.org/html/rfc7946)
-    + Attribute metadata:
-        + `timestamp`: Timestamp which captures when the vehicle was at that location.
-        This value can also appear as a FIWARE [TimeInstant](https://github.com/telefonicaid/iotagent-node-lib/blob/develop/README.md#TimeInstant)
-            + Type: [DateTime](http://schema.org/DateTime) or `ISO8601` (legacy).
-            + Mandatory
++ `brandName` : Vehicle's brand name.
+    + Attribute type: [Text](https://schema.org/Text)
+    + See also: [https://schema.org/brand](https://schema.org/brand)
+    + Mandatory
+	
++ `modelName` : Vehicle's model name.
+    + Attribute type: [Text](https://schema.org/Text)
+    + See also: [https://schema.org/model](https://schema.org/model)
+    + Mandatory
+	
++ `vehicleModelDate` : The release date of a vehicle model (often used to differentiate versions of the same make and model).
+    + Normative References: [https://schema.org/vehicleModelDate](https://schema.org/vehicleModelDate)
+    + Optional	
+	
++ `fuelType` : The type of fuel suitable for the engine or engines of the vehicle.
+    + Normative References: [https://schema.org/fuelType](https://schema.org/fuelType)
+    + Allowed values: one Of (`gasoline`, `petrol(unleaded)`, `petrol(leaded)`, `petrol`, `diesel`, `electric`,
+    `hydrogen`, `lpg`, `autogas`, `cng`, `biodiesel` `ethanol`, `hybrid electric/petrol`, `hybrid electric/diesel`, `other`)
     + Optional
-    
+
++ `fuelConsumption` : The amount of fuel consumed for traveling a particular distance or temporal
+duration with the given vehicle (e.g. liters per 100 km).
+    + Normative References: [https://schema.org/fuelConsumption](https://schema.org/fuelConsumption)
+    + Default unit: liters per 100 kilometer. 
+    + Optional
+	
 + `vehiclePlateIdentifier` : An identifier or code displayed on a vehicle registration plate attached to the vehicle used for official identification purposes.
 The registration identifier is numeric or alphanumeric and is unique within the issuing authority's region.
     + Normative References: DATEX II `vehicleRegistrationPlateIdentifier`
@@ -53,15 +68,4 @@ The registration identifier is numeric or alphanumeric and is unique within the 
     
 ## Example
 
-    {
-      "id": "vehicle:WasteManagement:1",
-      "type": "Vehicle",
-      "vehicleType": "car",
-      "location": {
-         "type": "Point",
-         "coordinates": [ -3.164485591715449, 40.62785133667262 ]
-      },
-      "vehiclePlateIdentifier": "3456ABC",
-	  "dateCreated": "2017-01-02T09:25:55.00Z",
-	  "dateModified": "2017-02-02T011:13:55.00Z"
-    }
+
