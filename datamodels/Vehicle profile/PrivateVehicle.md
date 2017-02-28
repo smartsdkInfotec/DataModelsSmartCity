@@ -2,7 +2,7 @@
 
 ## Description
 
-A vehicle.
+This vehicle model is a fragment of the Transportation Harmonized Data Models [https://github.com/Fiware/dataModels/blob/master/Transportation/doc/introduction.md](https://github.com/Fiware/dataModels/blob/master/Transportation/doc/introduction.md)
 
 ## Data Model
 
