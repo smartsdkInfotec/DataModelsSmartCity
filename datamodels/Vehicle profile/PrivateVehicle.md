@@ -66,6 +66,4 @@ The registration identifier is numeric or alphanumeric and is unique within the 
     + Attribute type: [DateTime](https://schema.org/DateTime)
     + Optional
     
-## Example
-
 
