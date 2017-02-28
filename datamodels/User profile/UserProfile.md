@@ -20,22 +20,32 @@ A user.
 + `id_system_friends` : Unique identifier related to friends in the system
 
 + `name` : The name of user. 
+	+ Attribute type: text
     + Normative References: [https://schema.org/name](https://schema.org/name)
     + Mandatory
 	
 + `family name` : The last name of user
+	+ Attribute type: text
     + Normative References: [https://schema.org/familyName](https://schema.org/familyName)
     + Mandatory
 
-+ `homeLocation` : The location of the house of a user represented by a GeoJSON geometry.
-	+ Attribute type: geo:json
-    + Normative References: [https://tools.ietf.org/html/rfc7946](https://tools.ietf.org/html/rfc7946)
-    + Optional	
++ `gender`:The gender of user
+	+ Attribute type: text
+	+ Normative References: [https://schema.org/gender] (https://schema.org/gender)
+	+ Optional
 
-+ `worklocation` : The location of the work of a user represented by a GeoJSON geometry..
-	+ Attribute type: geo:json.
-    + Normative References: [https://tools.ietf.org/html/rfc7946](https://tools.ietf.org/html/rfc7946)
-    + Optional	
++ `birthDate`:The date of birth of user
+	+ Attribute type: Date
+	+ Normative References: [https://schema.org/birthDate] (https://schema.org/birthDate)
+	+ Optional	
+
++ `homeaddress`: Civic address of a user´s home. 
+	+ Normative References: [https://schema.org/address]
+	+ Optional
+
++ `workaddress`: Civic address of the workplace user. 
+	+ Normative References: https://schema.org/address
+	+ Optional
 
 + `dateCreated` : Entity's creation timestamp
 	 + Attribute type: DateTime
