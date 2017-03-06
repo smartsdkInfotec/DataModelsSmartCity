@@ -1,10 +1,9 @@
 # Disease data model
 
 ## Description
-This entity models the health condition of a user, including properties such as pathology, symptom and riskfactor. This information could be useful to determine the best route to follow to reach a destination, taking into account the user health conditions. We use this model in Smart City App to propose an ideal route for the user, avoiding high levels of pollution, floods or pollen, etc., allowing for instance, to obtain the preferred routes for people with respiratory diseases.
+This entity models the health condition of a user, including properties such as pathology, symptom and riskfactor. This information could be useful to determine the best route to follow to reach a destination, taking into account the user health conditions. 
 
-We consider to use this model to 
-A disease.
+We use this model in Smart City App to propose an ideal route for the user, avoiding high levels of pollution, floods or pollen, etc., allowing for instance, to obtain the preferred routes for people with respiratory diseases.
 
 ## Data model
 
