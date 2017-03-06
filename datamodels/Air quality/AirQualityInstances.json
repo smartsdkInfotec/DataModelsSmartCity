@@ -12,6 +12,8 @@
     "coordinates": [-98.912003, 19.635501]
   },
   "source": "http://www.aire.cdmx.gob.mx/",
+  "temperature": 12.2,
+  "relativeHumidity": 0.54,
   "measurand": [
      "CO, 0.2, PPM, Carbon Monoxide", 
      "O3, 117, PPB, Ozone",
