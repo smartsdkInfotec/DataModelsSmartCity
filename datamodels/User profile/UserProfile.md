@@ -1,7 +1,8 @@
 # User profile data model
 
 ## Description
-A user.
+This entity models a user. This could presents the relationships that a user could have with a disease, a vehicle, a device and  Smart POIs. 
+In addition, this model considers the addresses of home and workplace of a user. The objective to consider these data is to save favorites routes and to determine in a quicker manner a route.
 
 ## Data model
 
@@ -16,8 +17,6 @@ A user.
 + `id_device` : Unique identifier related to user device.
 
 + `id_POI` : Unique identifier related to user POIs
-
-+ `id_system_friends` : Unique identifier related to friends in the system
 
 + `name` : The name of user. 
 	+ Attribute type: text
