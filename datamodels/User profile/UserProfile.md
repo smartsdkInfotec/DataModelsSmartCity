@@ -1,7 +1,7 @@
 # User profile data model
 
 ## Description
-This entity models a user. This could presents the relationships that a user could have with a disease, a vehicle, a device and  Smart POIs. 
+This entity models a user. This model presents the relationships that a user could have with a disease, a vehicle, a device and  Smart POIs. 
 In addition, this model considers the addresses of home and workplace of a user. The objective to consider these data is to save favorites routes and to determine in a quicker manner a route.
 
 ## Data model
