@@ -28,7 +28,7 @@ In addition, this model considers the addresses of home and workplace of a user.
     + Normative References: [https://schema.org/familyName](https://schema.org/familyName)
     + Mandatory
 
-+ `gender`:The gender of user
++ `gender`: The gender of user
 	+ Attribute type: text
 	+ Normative References: [https://schema.org/gender] (https://schema.org/gender)
 	+ Optional
