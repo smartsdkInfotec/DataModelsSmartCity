@@ -1,8 +1,0 @@
-{
-  "id": "disease:asthma",
-  "type": "disease", 
-  "pathology": "asthma",
-  "riskfactor": "smog",
-  "symptom": "Chest pressure" 
-}  
-  
