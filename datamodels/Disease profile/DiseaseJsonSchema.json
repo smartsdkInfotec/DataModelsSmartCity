@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "http://json-schema.org/schema#",
   "id": "https://fiware.github.io/dataModels/diseaseprofile/schema.json",
   "title": "Disease profile JSON Schema",
   "description": "This file describes the json schema of disease profile",
