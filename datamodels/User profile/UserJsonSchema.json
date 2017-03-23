@@ -7,7 +7,7 @@
       "properties": {
         "id": {
           "description": "Entity's unique identifier",
-          "type": "integer"
+          "type": "string"
         },
 		"type": {
           "type": "string",
