@@ -42,13 +42,13 @@
             },
             "addressLocality": {
             "type": "string"
-            },	
+            },
 			"streetAddress": {
             "type": "string"
-            },			
+            },
             "postalCode": {
             "type": "string"
-            }			
+            }
           }
         }
       }
@@ -72,10 +72,10 @@
             },
 			"streetAddress": {
               "type": "string"
-            },			
+            },
             "postalCode": {
               "type": "string"
-            }			
+            }
           }
         }
       }
