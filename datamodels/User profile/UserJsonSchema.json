@@ -6,8 +6,8 @@
 	"type": "object",
 	"properties": {
         "id": {
-			"description": "Entity's unique identifier",
-            "type": "integer"
+		"description": "Entity's unique identifier",
+        "type": "integer"
         },
 		"name": {
 			"description": "The name of user",
