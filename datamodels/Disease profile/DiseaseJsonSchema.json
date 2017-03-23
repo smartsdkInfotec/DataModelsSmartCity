@@ -9,6 +9,13 @@
           "description": "Entity's unique identifier",
           "type": "integer"
         },
+        "type": {
+          "type": "string",
+          "enum": [
+            "disease"
+          ],
+          "description": "NGSI Entity type"
+        },
         "pathology": {
           "description": "Illness physical or mental of user",
           "type": "string"          
@@ -33,5 +40,9 @@
           "type": "string",
           "format": "date-time"           
         }
-	 }
-}	 
+    },
+    "required": [
+    "id",
+    "type"
+  ]
+} 
