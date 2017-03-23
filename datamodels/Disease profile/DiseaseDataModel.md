@@ -6,7 +6,7 @@ This entity models the health condition of a user, including properties such as 
 We use this model in Smart City App to propose an ideal route for the user, avoiding high levels of pollution, floods or pollen, etc., allowing for instance, to obtain the preferred routes for people with respiratory diseases.
 
 ## Data model
-A JSON Schema corresponding to this data model can be found {{DataModelsSmartCity/datamodels/Disease profile/DiseaseJsonSchema.json}}
+A JSON Schema corresponding to this data model can be found {{https://github.com/smartsdkInfotec/DataModelsSmartCity/blob/master/datamodels/Disease%20profile/DiseaseJsonSchema.json}}
 
 + `id` : Entity's unique identifier. 
 
