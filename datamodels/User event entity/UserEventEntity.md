@@ -10,7 +10,7 @@ The objective of this model is to define all the data that will send to Orion Co
 
 + `type` : Entity type. It must be equal to `UserEventEntity`.
 
-+ `Event` : An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the offers property. Repeated events may be structured as separate Event objects..
++ `event` : An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the offers property. Repeated events may be structured as separate Event objects..
 	+ Attribute type: text
     + Normative References: [https://schema.org/Event](https://schema.org/Event)
     + Mandatory 
