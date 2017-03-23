@@ -6,24 +6,24 @@
 	"type": "object",
 	"properties": {
         "id": {
-		"description": "Entity's unique identifier",
-        "type": "integer"
+			"description": "Entity's unique identifier",
+			"type": "integer"
         },
 		"name": {
-		"description": "The name of user",
-		"type": "string"
+			"description": "The name of user",
+			"type": "string"
         },
 		"familyName": {
-		"description": "The last name of user",
-		"type": "string"
+			"description": "The last name of user",
+			"type": "string"
         },
 		"gender": {
-		"description": "The gender of user",
-		"type": "string"
+			"description": "The gender of user",
+			"type": "string"
         },
 		"birthDate": {
-		"description": "The date of birth of user",
-		"type": "string"
+			"description": "The date of birth of user",
+			"type": "string"
         }
     },
 	
@@ -38,16 +38,16 @@
               "type": "string"
             },
             "addressRegion": {
-              "type": "string"
+            "type": "string"
             },
             "addressLocality": {
-              "type": "string"
+            "type": "string"
             },	
 			"streetAddress": {
-              "type": "string"
+            "type": "string"
             },			
             "postalCode": {
-              "type": "string"
+            "type": "string"
             }			
           }
         }
