@@ -7,34 +7,34 @@
       "properties": {
         "id": {
           "description": "Entity's unique identifier",
-		  "type": "integer"
+          "type": "integer"
         },
         "name": {
           "description": "The name of user",
-		  "type": "string"          
+          "type": "string"          
         },
-		"familyName": {
+        "familyName": {
           "description": "The last name of user",
-		  "type": "string"          
+          "type": "string"          
         },
-		"gender": {
+        "gender": {
           "description": "The gender of user",
-		  "type": "string"          
+        "type": "string"          
         },
-		"birthDate": {
+        "birthDate": {
           "description": "The date of birth of user",
-		  "type": "string"          
+          "type": "string"          
         },
-		"dateCreated": {
-		  "type": "string",
-		  "format": "date-time"           
+        "dateCreated": {
+          "type": "string",
+          "format": "date-time"           
         },
-		"dateModified": {
-		  "type": "string",
-		  "format": "date-time"           
+        "dateModified": {
+          "type": "string",
+          "format": "date-time"           
         }
-	},
-	 "homeAdress": {
+},
+     "homeAdress": {
       "type": "object",
       "properties": {
         "location": { "$ref": "http://json-schema.org/geojson/geometry.json#" },
@@ -50,7 +50,7 @@
             "addressLocality": {
             "type": "string"
             },
-			"streetAddress": {
+            "streetAddress": {
             "type": "string"
             },
             "postalCode": {
@@ -60,8 +60,8 @@
         }
       }
     },
-	
-	"workAdress": {
+
+    "workAdress": {
       "type": "object",
       "properties": {
         "location": { "$ref": "http://json-schema.org/geojson/geometry.json#" },
@@ -77,7 +77,7 @@
             "addressLocality": {
               "type": "string"
             },
-			"streetAddress": {
+            "streetAddress": {
               "type": "string"
             },
             "postalCode": {
