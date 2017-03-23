@@ -1,5 +1,3 @@
-#User profile (JSON Schema)
-
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
 	"id": "https://fiware.github.io/dataModels/userprofile/schema.json",
@@ -8,7 +6,7 @@
 	"type": "object",
 	"properties": {
         "id": {
-            "description": "Entity's unique identifier",
+			"description": "Entity's unique identifier",
             "type": "integer"
         },
 		"name": {
@@ -36,7 +34,7 @@
         "address": {
           "type": "object",
           "properties": {
-             "addressCountry": {
+            "addressCountry": {
               "type": "string"
             },
             "addressRegion": {
@@ -63,7 +61,7 @@
         "address": {
           "type": "object",
           "properties": {
-             "addressCountry": {
+            "addressCountry": {
               "type": "string"
             },
             "addressRegion": {
@@ -71,7 +69,7 @@
             },
             "addressLocality": {
               "type": "string"
-            },	
+            },
 			"streetAddress": {
               "type": "string"
             },			
