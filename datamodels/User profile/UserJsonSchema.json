@@ -10,20 +10,20 @@
         "type": "integer"
         },
 		"name": {
-			"description": "The name of user",
-			"type": "string"
+		"description": "The name of user",
+		"type": "string"
         },
 		"familyName": {
-			"description": "The last name of user",
-			"type": "string"
+		"description": "The last name of user",
+		"type": "string"
         },
 		"gender": {
-			"description": "The gender of user",
-			"type": "string"
+		"description": "The gender of user",
+		"type": "string"
         },
 		"birthDate": {
-			"description": "The date of birth of user",
-			"type": "string"
+		"description": "The date of birth of user",
+		"type": "string"
         }
     },
 	
@@ -80,12 +80,13 @@
         }
       }
     },
-		"dateCreated": {
-          "type": "string",
-          "format": "date-time"
-        },
-		"dateModified": {
-          "type": "string",
-          "format": "date-time"
-        }
+	
+	"dateCreated": {
+	"type": "string",
+	"format": "date-time"
+	},
+	"dateModified": {
+	"type": "string",
+	"format": "date-time"
+	}
 }
