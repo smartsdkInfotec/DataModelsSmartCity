@@ -12,7 +12,7 @@ A Public Transport.
 
 + `name` : Name given to this Public Tranport. 
     + Normative References: [https://schema.org/name](https://schema.org/name)
-    + Optional
+    + Mandatory
 
 + `vehicleType` : Type of vehicle from the point of view of its structural characteristics.
 This is different than the vehicle category (see below).
@@ -26,28 +26,32 @@ This is different than the vehicle category (see below).
 This is different than the vehicle type (car, lorry, etc.) represented by the `vehicleType` property.
     + Attribute type: List of [Text](https:/schema.org/Text)
     + Allowed values:
-        + (`public`, `private`, `municipalServices`).
+        + (`public`, `private`).
     + Mandatory
 
-+ `location` : Vehicle's last known location represented by a GeoJSON Point. Such point may contain the vehicle's
++ `locationActual` : Vehicle's last known location represented by a GeoJSON Point. Such point may contain the vehicle's
 *altitude* as the third component of the `coordinates` array. 
     + Attribute type: `geo:json`.
     + Normative References: [https://tools.ietf.org/html/rfc7946](https://tools.ietf.org/html/rfc7946)
 
-+ `stop` : Vehicle's last known location represented by a GeoJSON Point. Such point may contain the vehicle's
++ `bus_stop` : Vehicle's last known location represented by a GeoJSON Point. Such point may contain the vehicle's
 *altitude* as the third component of the `coordinates` array. 
     + Attribute type: `geo:json`.
     + Normative References: [https://tools.ietf.org/html/rfc7946](https://tools.ietf.org/html/rfc7946)
     
 + `areaServed` : Higher level area served by this vehicle. It can be used to group vehicles per responsible, district, neighbourhood, etc.
 	+ Attribute type: Text
-	+ Optional
+	+ Mandatory
 
-+ `arrivalTime` : The expected arrival time by PublicTransport
++ `arrivalTime` : The expected arrival time by PublicTransport to the next stop.
 	+ Attribute type: [DateTime](http://schema.org/DateTime)
-	+ Mandatory	
+	+ Mandatory
 
-+ `returnTime` : The expected return time by PublicTransport
++ `number_passengers` : The expected arrival time by PublicTransport to the next stop.
+	+ Attribute type: [DateTime](http://schema.org/DateTime)
+	+ Mandatory		
+
++ `returnTime` : The expected return time by PublicTransport 
 	+ Attribute type: [DateTime](http://schema.org/DateTime)
 	+ Mandatory	
 
@@ -55,6 +59,11 @@ This is different than the vehicle type (car, lorry, etc.) represented by the `v
 	+ Normative References: DATEX II vehicleRegistrationPlateIdentifier
 	+ Attribute Type: Text
 	+ Mandatory if vehicleIdentificationNumber is not defined.
+
++ `description` : A description of the item.
+	 + Attribute type: text
+	 + Normative References: [https://schema.org/description](https://schema.org/description)
+	 + Mandatory	
 
 + `dateModified` : Last update timestamp of this entity.
     + Attribute type: [DateTime](https://schema.org/DateTime)

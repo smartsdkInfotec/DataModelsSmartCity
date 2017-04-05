@@ -26,6 +26,10 @@ This is different than the vehicle category (see below).
         + (`bicycle`, `car`,  `motorcycle`,)
     + Mandatory
 
++ `defaultCar` : The default value of the input. For properties that expect a literal, the default is a literal value, for properties that expect an object, it's an ID reference to one of the current values. 
+    + Normative References: [https://schema.org/defaultValue](https://schema.org/defaultValue)
+    + Mandatory
+
 + `brandName` : Vehicle's brand name.
     + Attribute type: [Text](https://schema.org/Text)
     + See also: [https://schema.org/brand](https://schema.org/brand)
