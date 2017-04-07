@@ -10,7 +10,7 @@
         }
     },
 	"dateObserved":{
-		"type":"text",
+		"type":"DataTime",
 		"value":"2016-03-14T17:00:00-05:00"
 	},
 	"location": {
