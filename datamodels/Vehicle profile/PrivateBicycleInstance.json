@@ -1,5 +1,5 @@
   {
-	    "id": "vehicle:private:1",
+	    "id": "bicicle:private:1",
 	    "type": "Vehicle",
 	    "vehicleType": "bicycle",
 	    "brandName":"Bennoto", 
