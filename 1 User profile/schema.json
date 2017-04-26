@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://github.com/smartsdkInfotec/DataModelsSmartCity/schema.json",
+  "title": "User profile data model JSON Schema",
+  "description": "This entity models a user. In addition, this model considers the addresses of home and workplace of a user. The model considers these data due to that these could be used to save favorites places.",
+  "type": "object",
+  "allOf": [
+    {
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+		"name": {
+          "type": "string"
+        },
+		"family name": {
+          "type": "string"
+        },
+		"gender": {
+          "type": "string"
+        },
+		"birthDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "User"
+          ],
+          "description": "NGSI Entity type"
+        }
+      }
+    }
+  ],
+  "oneOf": [
+    {
+      "required": [
+        "id",
+        "type",
+        "name",
+        "family name"
+      ]
+    }
+  ]
+}
