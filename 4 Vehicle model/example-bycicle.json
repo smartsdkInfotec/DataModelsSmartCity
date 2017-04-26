@@ -1,0 +1,11 @@
+  {
+	    "id": "bicicle:private:1",
+	    "type": "Vehicle",
+	    "vehicleType": "bicycle",
+	    "brandName":"Bennoto", 
+	    "defaultCar":"no",
+	    "modelName":"500", 
+	    "vehicleModelDate": "2017", 
+	    "dateCreated": "2017-01-02T09:25:55.00Z",
+	    "dateModified": "2017-02-02T011:13:55.00Z"
+  }
