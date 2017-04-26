@@ -7,9 +7,6 @@
   "allOf": [
     {
       "properties": {
-        "description": {
-          "type": "string"
-        },
 		"name": {
           "type": "string"
         },
