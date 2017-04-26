@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://github.com/smartsdkInfotec/DataModelsSmartCity/2DiseaseProfile/schema.json",
+  "title": "Disease profile data model JSON Schema",
+  "description": "This entity models the health condition of a user, including properties such as pathology, symptom and riskfactor. This information could be useful to determine the best route to follow to reach a destination, taking into account the user health conditions. We use this model in Smart City App to propose an ideal route for the user, avoiding high levels of pollution, floods or pollen, etc., allowing for instance, to obtain the preferred routes for people with respiratory diseases.",
+  "type": "object",
+  "allOf": [
+    {
+      "properties": {
+		"pathology": {
+          "type": "string"
+        },
+		"symptom": {
+          "type": "string"
+        },
+		"PhysicalActivity": {
+          "type": "string"
+        },
+		"possibleComplication": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "disease"
+          ],
+          "description": "NGSI Entity type"
+        }
+      }
+    }
+  ],
+  "oneOf": [
+    {
+      "required": [
+        "id",
+        "type"
+      ]
+    }
+  ]
+}
